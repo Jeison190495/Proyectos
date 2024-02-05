@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial3.Views.PagPrincipal">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Informacion" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+        <ToolbarItem Text="Comentarios" Clicked="Comentarios_clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content >
+        <StackLayout Padding="10,10">
+            <Label Text="¿Qué es el calentamiento global breve resumen?"
+                   HorizontalOptions="CenterAndExpand" FontSize="Title"></Label>
+            
+            <Label Text="El calentamiento global resulta del aumento del efecto invernadero, un proceso en el que la radiación térmica emitida por la Tierra queda atrapada en la atmósfera debido a los gases con ese efecto (GEI). Su presencia es natural y necesaria para mantener la temperatura del planeta en unos valores habitables."
+                   FontSize="Body"></Label>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

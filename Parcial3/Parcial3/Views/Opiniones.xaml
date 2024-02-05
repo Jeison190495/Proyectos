@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial3.Views.Opiniones">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Guardar" Clicked="Guardar_clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Dejanos tus opiniones ante el tema!"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nombre" x:Name="Nombres"></Label>
+            <Entry></Entry>
+            <Label Text="Correo" x:Name="Emailss"></Label>
+            <Editor></Editor>
+            <Label Text="descripcion" x:Name="descipcion"></Label>
+            <Editor></Editor>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
